@@ -234,4 +234,3 @@ def generate_batch_tokens_with_past(inputs):
     next_token_ids = last_logits.argmax(dim=1)
     return next_token_ids, outputs.past_key_values
 
-
